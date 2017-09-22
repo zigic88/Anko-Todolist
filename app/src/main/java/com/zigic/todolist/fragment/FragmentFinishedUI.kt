@@ -67,7 +67,7 @@ class FragmentFinishedUI(val finishedAdapter: FinishedAdapter) : AnkoComponent<F
                 override fun onDataReceived(task: Task) {
                     finishedAdapter.addNewItem(task)
                 }
-            });
+            })
 
 
         }
